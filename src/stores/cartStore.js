@@ -21,12 +21,12 @@ export default defineStore('cart', {
           qty
         })
       }
-      console.log(this.cart)
+      // console.log(this.cart)
     },
     setCartQty (id, event) {
-      console.log(id, event)
+      // console.log(id, event)
       const currentCart = this.cart.find((item) => item.id === id);
-      console.log(currentCart);
+      // console.log(currentCart);
       currentCart.qty = event.target.value * 1;
     },
     removeCartItem (id) {
