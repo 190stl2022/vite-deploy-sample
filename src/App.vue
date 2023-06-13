@@ -30,4 +30,11 @@ export default {
   height: 200px;
   object-fit: cover;
 }
+.bi-x-lg {
+  margin-left: 8px;
+  font-size: 22px;
+}
+.bi-x-lg:hover {
+  color: $danger;
+}
 </style>

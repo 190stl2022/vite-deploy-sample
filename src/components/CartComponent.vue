@@ -6,7 +6,7 @@
       <tbody>
         <tr v-for="item in cartList.carts" :key="item.id">
           <td>
-            <a href="#" class="text-dark" @click.prevent="removeCartItem(item.id)">x</a>
+            <a href="#" class="text-dark" @click.prevent="removeCartItem(item.id)"><i class="bi bi-x-lg"></i></a>
           </td>
           <td>
             <img :src="item.product.imageUrl" :alt="item.title" class="table-image">
